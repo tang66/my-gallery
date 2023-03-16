@@ -1,0 +1,45 @@
+{
+  "name": "gallery",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "echarts": "^5.4.1",
+    "element-plus": "^2.2.32",
+    "hongluan-business-ui": "^4.2.0",
+    "hongluan-ui": "^2.2.4",
+    "nprogress": "^0.2.0",
+    "pc-fx-framework": "^1.2.33",
+    "prismjs": "^1.29.0",
+    "vue": "^3.2.45",
+    "vue-prism-editor": "^2.0.0-alpha.2",
+    "vue-router": "^4.0.3",
+    "@hongluan-ui/icons": "^1.4.5",
+    "@hongluan-ui/styles": "^1.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vue-tsc": "^1.0.24",
+    "sass": "^1.32.7",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "unplugin-vue-components": "^0.17.2",
+    "unplugin-vue-define-options": "^0.6.0",
+    "vite-plugin-environment": "^1.1.1"
+  }
+}
