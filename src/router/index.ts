@@ -5,8 +5,12 @@ import Layout from '../layout/index.vue'
 
 const pages = [
   {
-    path: '/',
-    component: () => import('../views/index.vue'),
+    path: '/template',
+    component: () => import('../views/template/index.vue'),
+  },
+  {
+    path: '/text',
+    component: () => import('../views/text/index.vue'),
   },
 ]
 
@@ -15,7 +19,7 @@ export const routes = [
     path: '/',
     name: 'index',
     component: Layout,
-    redirect: 'home',
+    redirect: 'template',
     children: pages,
   },
 ]

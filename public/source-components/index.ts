@@ -5,8 +5,12 @@ import EchartsSecond from './echarts-second.vue';
 import EchartsThird from './echarts-third.vue';
 import EchartsFourth from './echarts-fourth.vue'
 import EchartsFifth from './echarts-fifth.vue';
-import EchartsSixth from './echarts-sixth.vue'
-
+import EchartsSixth from './echarts-sixth.vue';
+import TimeLineFirst from './time-line-first.vue';
+import BackgroundFirst from './background-first.vue';
+import BackgroundSecond from './background-second.vue';
+import ButtonFirst from './button-first.vue';
+import ImageFirst from './image-first.vue';
 
 export {
   MouseWheelZoom,
@@ -16,5 +20,10 @@ export {
   EchartsThird,
   EchartsFourth,
   EchartsFifth,
-  EchartsSixth
+  EchartsSixth,
+  TimeLineFirst,
+  BackgroundFirst,
+  BackgroundSecond,
+  ButtonFirst,
+  ImageFirst
 }

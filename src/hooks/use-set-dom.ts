@@ -1,6 +1,6 @@
 import {shallowReactive} from 'vue';
 import { MouseWheelZoom, EchartsFirst, MirrorButton,EchartsSecond,EchartsThird,
-  EchartsFourth,EchartsFifth,EchartsSixth } from '../../public/source-components'
+  EchartsFourth,EchartsFifth,EchartsSixth,TimeLineFirst,BackgroundFirst,BackgroundSecond,ButtonFirst,ImageFirst} from '../../public/source-components'
 
 
 
@@ -13,7 +13,12 @@ function useSetDom () {
     EchartsThird,
     EchartsFourth,
     EchartsFifth,
-    EchartsSixth
+    EchartsSixth,
+    TimeLineFirst,
+    BackgroundFirst,
+    BackgroundSecond,
+    ButtonFirst,
+    ImageFirst
   })
   
   return {

@@ -55,7 +55,41 @@ const listDict = [
     sourceName: 'echarts-sixth',
     name: 'EchartsSixth'
   },
-  
+  {
+    title: 'gsap实现可播放/可拖拽时间轴',
+    des: '利用gsap动画库实现简单时间轴',
+    id: '000007',
+    sourceName: 'time-line-first',
+    name: 'TimeLineFirst'
+  },
+  {
+    title: '7张背景图适配任意高度/宽度对话框，卡片等',
+    des: '7张背景图适配任意高度/宽度对话框，卡片等',
+    id: '000008',
+    sourceName: 'background-first',
+    name: 'BackgroundFirst'
+  },
+  {
+    title: '多张背景图自适应填充卡片',
+    des: '多张背景图自适应填充卡片',
+    id: '000009',
+    sourceName: 'background-second',
+    name: 'BackgroundSecond'
+  },
+  {
+    title: '单标签下的日间/黑夜模式切换按钮效果',
+    des: '单标签下的日间/黑夜模式切换按钮效果',
+    id: '000010',
+    sourceName: 'button-first',
+    name: 'ButtonFirst'
+  },
+  {
+    title: '图片添加揭露动画效果',
+    des: '图片添加揭露动画效果',
+    id: '000011',
+    sourceName: 'image-first',
+    name: 'ImageFirst'
+  },
 ]
 
 export { listDict }
